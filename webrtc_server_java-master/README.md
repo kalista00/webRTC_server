@@ -1,56 +1,19 @@
+오버라이드
+이 패키지는 아래 링크에서 사용되는 Java 서버 버전입니다.
 
-## Override
-
-配合
 https://github.com/ddssingsong/webrtc_android
-使用的一套服务器java版本
 
-实现基本的信令收发，配合Android端实现基本的呼叫、响铃、挂断、语音通话、视频通话的功能
+기본적인 시그널링 수신 및 전송을 구현하여 Android 앱과 함께 기본 호출, 벨소리, 종료, 음성 통화, 비디오 통화 기능을 구현합니다.
 
+Android에서의 접속 주소는 ws://ip:port/websocket 입니다.
 
-Android访问地址为ws://ip:port/websocket
+브랜치 소개
+master
 
-## 分支介绍
+Android 앱 Java 버전 비즈니스 로직과 함께 기본 호출, 벨소리, 음성 통화, 비디오 통화 기능을 구현합니다.
 
-*master*
+nodejs_copy
 
-配合Android端Java版本业务逻辑，实现基本的呼叫、响铃、语音通话、视频通话的功能
+Node.js 버전을 가져와 Java로 다시 작성한 버전입니다. (원본: https://github.com/ddssingsong/webrtc_server_node)
 
-*nodejs_copy*
-
-将nodejs版本https://github.com/ddssingsong/webrtc_server_node 使用java写了一遍
-
-
-
-  
-    
-601332720（1群） 619413989 （2群） 707717173 （3群）
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+601332720 (1그룹) 619413989 (2그룹) 707717173 (3그룹)
